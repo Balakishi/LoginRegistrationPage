@@ -11,7 +11,7 @@ namespace LoginRegistrationPage
 {
 
 
-    public partial class itex
+    public partial class Login
     {
 
         /// <summary>
@@ -24,40 +24,31 @@ namespace LoginRegistrationPage
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Txtbox_username control.
+        /// Txtbox_Loginemail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtbox_username;
+        protected global::System.Web.UI.WebControls.TextBox Txtbox_Loginemail;
 
         /// <summary>
-        /// Txtbox_Signemail control.
+        /// Txtbox_LoginPasswd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtbox_Signemail;
+        protected global::System.Web.UI.WebControls.TextBox Txtbox_LoginPasswd;
 
         /// <summary>
-        /// Txtbox_SignPasswd control.
+        /// buttonLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtbox_SignPasswd;
-
-        /// <summary>
-        /// Txtbox_phone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtbox_phone;
+        protected global::System.Web.UI.WebControls.Button buttonLogin;
 
         /// <summary>
         /// lblresult control.
@@ -67,14 +58,5 @@ namespace LoginRegistrationPage
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblresult;
-
-        /// <summary>
-        /// buttonSign control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buttonSign;
     }
 }
